@@ -12,7 +12,8 @@ function calcul() {
         prixPhotocopies = nombrePhotocopies * 0.1;
     } else if (nombrePhotocopies <= 30) {
         prixPhotocopies = (nombrePhotocopies -10) * 0.09;
-        
+    } else {
+        prixPhotocopies = (nombrePhotocopies - 30)
     }
 }
 
